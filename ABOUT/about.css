@@ -1,0 +1,68 @@
+
+h1
+ {
+	font-variant: small-caps;
+	margin: 0;
+	padding: 1em 0;
+
+}
+h3 {
+	font-variant: small-caps;
+	margin: 0;
+	padding: 1em 0;
+	font-size: 20pt;
+}
+p {
+	margin: 0;
+	padding: 1em 0;
+}
+
+
+.site {
+	margin-left: 15px;
+	margin-top: 27px;
+	min-height: 63vh;
+}
+
+
+.main-content {
+	background: white;
+	height: 65vh;
+}
+
+
+.sidebar {
+	background: url("https://us.123rf.com/450wm/afe207/afe2071602/afe207160200207/52329916-stock-vector-black-heart-drawing-love-valentine.jpg?ver=6") no-repeat center;
+	height: 65vh;
+}
+
+
+
+
+@supports not (display: grid) {
+	.site {
+		max-width: 50em;
+		margin: 0 auto;
+	}
+}
+
+
+@media screen and (min-width: 600px) {
+	@supports (display: grid) {
+
+		.site {
+			display: grid;
+			grid-template-columns: 1fr repeat(6, minmax(auto, 10em)) 1fr;
+			grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
+		}
+
+		.main-content {
+			grid-column: 1/6;
+		}
+
+		.sidebar {
+			grid-column: 6/9;
+		}
+
+	}
+}

@@ -1,0 +1,112 @@
+.carousel.slide.carousel-fade{
+width: 800px;
+height: 800px;
+}
+  img.d-block{
+    width: 800px;
+    height: 800px;
+
+  }
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .footer  { order: 4; }
+  }
+  
+  body {
+    padding: 2em; 
+    
+  }
+
+.card{
+    height: 700px;
+    width: 700px;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+a {
+    color: black; /* Цвет ссылок */
+   }
+ 
+.img.logo {
+    
+      float: none;
+      overflow: hidden;
+    }
+  
+  .navbar{
+    height: 80px;
+}
+
+
+footer{
+    height: 200px;
+    
+}
+
+
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+
+  .aside-2 {
+    margin-left: 20px;
+    background: white;
+    height: 800px;
+    width: 700px;
+  }
+  
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  }
+  
+  body {
+    padding: 2em; 
+  }
+
+ /* текст */
+ h2{
+ font-variant: small-caps;
+ text-align: center;
+}
+
+h3{
+    font-variant: small-caps;
+    text-align: right;
+   }
+
+.flex-container{
+    display: flex;
+}
+
+table{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}

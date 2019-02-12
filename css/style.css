@@ -1,0 +1,43 @@
+.flex-container{
+    height: 900px;
+    display: flex;
+}
+
+.mask {
+    width: 100%;
+}
+
+.card-group{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card{
+    max-width: 400px;
+
+}
+.col{
+    border: 3px;
+}
+a {
+    color: black; /* Цвет ссылок */
+   }
+ 
+.img.logo {
+    
+      float: none;
+      
+      overflow: hidden;
+    }
+  
+  .navbar{
+    height: 80px;
+}
+
+
+section{
+    margin-top: 10%;
+}
+footer{
+    height: 200px;
+}

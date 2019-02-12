@@ -1,0 +1,57 @@
+
+
+
+.flex-container  {
+
+     display: flex; /* or inline-flex */
+}
+
+.card-group{
+width: cover;
+}
+.card{
+ 
+    height: 500px;
+}
+
+
+a {
+    color: black; /* Цвет ссылок */
+   }
+ 
+   img.logo{
+    width: 150px;
+    height: 75px;
+   }
+  
+  .navbar{
+    height: 80px;
+}
+
+
+section{
+    margin-top: 10%;
+}
+footer{
+    height: 200px;
+}
+
+
+
+.card-img-top {
+    background: url(../images/blocks/1.jpg) no-repeat center;
+     position: relative;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+   }
+   .card-img-top:hover
+   {
+    border: 0,5px solid white;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 1s;
+   }
+
+  
